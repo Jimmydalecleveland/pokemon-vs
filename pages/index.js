@@ -8,7 +8,7 @@ export default function Home({ data }) {
       <ul>
         {data.results.map((pokemon) => (
           <li key={pokemon.name}>
-            <Link href={`/pokemon/${pokemon.name}`}>
+            <Link href={`/${pokemon.name}`}>
               <a>{pokemon.name}</a>
             </Link>
           </li>
