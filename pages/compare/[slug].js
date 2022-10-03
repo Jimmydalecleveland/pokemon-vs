@@ -46,9 +46,6 @@ export default function VS({ data }) {
           </ul>
         </div>
       </div>
-      <pre>
-        {JSON.stringify(data, null, 2)}
-      </pre>
     </main>
   )
 }
