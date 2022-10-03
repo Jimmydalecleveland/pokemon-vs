@@ -4,7 +4,8 @@ export default function Home({ data }) {
   return (
     <main>
       <h1>All pokemon</h1>
-      <h2>Total pokemon: {data.count}</h2>
+      <p>Total pokemon: {data.count}</p>
+      <h2>Head to <Link href="/compare/bulbasaur-vs-mew"><a>`/compare/bulbasaur-vs-mew`</a></Link> to compare two Pokemon</h2>
       <ul>
         {data.results.map((pokemon) => (
           <li key={pokemon.name}>
